@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js-Birthday</title>
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  
+</head>
+<body>
+  <div class="bg-gradient bg-light container-fluid d-flex justify-content-center align-items-center vh-100">
+    <form class="form d-flex flex-column" method="GET" action="https://echo.htmlacademy.ru">
+      <div class="d-flex">
+        <div class="mb-3 me-2">
+          <label for="fname" class="form-label">Father's name</label>
+          <input type="text" class="form-control" name="fname" id="fname" aria-describedby="helpId"
+            placeholder="Otangizni ismi" required="required">
+        </div>
+        <div class="mb-3">
+          <label for="lname" class="form-label">Your surname</label>
+          <input type="text" class="form-control" name="lname" id="lname" aria-describedby="helpId"
+            placeholder="Otangizning familiyasi" required="required">
+        </div>
+        
+      </div>
+      <div>
+        <div class="mb-3">
+          <label for="tdate" class="form-label">Your Father's Birthday
+          </label>
+          <input type="date" class="form-control form-control-sm|lg" name="tdate" id="tdate" aria-describedby="helpId"  required>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex">
+        
+        <div class="mb-3 me-2">
+          <label for="fname" class="form-label">Mother's name</label>
+          <input type="text" class="form-control" name="fname" id="fname" aria-describedby="helpId"
+            placeholder="Onangizni ismi" required="required">
+        </div>
+        <div class="mb-3">
+          <label for="lname" class="form-label">Mother's surname</label>
+          <input type="text" class="form-control" name="lname" id="lname" aria-describedby="helpId"
+            placeholder="Onangizning familiyasi" required="required">
+        </div>
+        
+      </div>
+      <div>
+        <div class="mb-3">
+          <label for="tdate" class="form-label">Your Mother's Birthday
+          </label>
+          <input type="date" class="form-control form-control-sm|lg" name="tdate" id="tdate" aria-describedby="helpId" required>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex">
+        
+        <div class="mb-3 me-2">
+          <label for="fname" class="form-label">Your Name</label>
+          <input type="text" class="form-control" name="fname" id="fname" aria-describedby="helpId"
+            placeholder="Sizning ismingiz" required="required">
+        </div>
+        <div class="mb-3">
+          <label for="lname" class="form-label">Your surname</label>
+          <input type="text" class="form-control" name="lname" id="lname" aria-describedby="helpId"
+            placeholder="Sizning familiyangiz" required="required">
+        </div>
+      </div>
+      <div>
+        <div class="mb-3">
+          <label for="tdate" class="form-label">Your Birthday
+          </label>
+          <input type="date" class="form-control form-control-sm|lg" name="tdate" id="tdate" aria-describedby="helpId" required>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">SEND</button>
+      </div>
+    </form>
+  </div>
+  <script src="./bootstrap/dist/js/bootstrap.bundle.min.js" async defer></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
